@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category    NWT
+ * @package     NWT_Base
+ * @copyright   Copyright (c) 2015 Nordic Web Team ( http://nordicwebteam.se/ )
+ * @license     NWT Commercial License (NWTCL 1.0)
+ *
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+  <module name="NWT_Base" setup_version="1.0.1">
+  </module>
+</config>

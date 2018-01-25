@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'NWT_Icons';
+    src: 
+        url('../fonts/NWT/Icons.eot');
+    src: 
+        url('../fonts/NWT/Icons.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/NWT/Icons.woff') format('woff'), 
+        url('../fonts/NWT/Icons.ttf') format('truetype'), 
+        url('../fonts/NWT/Icons.svg#NWT_Icons') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.admin__menu .level-0#menu-nwt-base > a:before{
+    font-family: 'NWT_Icons';
+    content: "\e900"
+}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ *
+ * @category    NWT
+ * @package     NWT_Base
+ * @copyright   Copyright (c) 2015 Nordic Web Team ( http://nordicwebteam.se/ )
+ * @license     NWT Commercial License (NWTCL 1.0)
+ *
+ */
+-->
+ 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="NWT::base" title="NWT" module="NWT_Base" sortOrder="10" dependsOnModule="NWT_Base" resource="NWT_Base::base"/>
+        <add id="NWT::base_about" title="About" module="NWT_Base" sortOrder="1000" parent="NWT::base" action="adminhtml/system_config/edit/section/nwtbase" resource="NWT_Base::about" />
+
+    </menu>
+</config>
